@@ -46,7 +46,7 @@
   --shadow-color:        rgba(0, 0, 0, .08);
 
   --font-latin:  'Newsreader', 'EB Garamond', 'Gentium Book Plus';
-  --font-body:   var(--font-latin), 'Bookk Gothic', 'Zen Old Mincho', 'Shippori Mincho B1',
+  --font-body:   var(--font-latin), 'BookkGothic', 'Zen Old Mincho', 'Shippori Mincho B1',
                  'Noto Serif KR', 'Apple SD Gothic Neo', 'Malgun Gothic', serif;
   --font-hanja:  var(--font-latin), 'Zen Old Mincho', 'Shippori Mincho B1', var(--font-body);
   --font-ipa:    'Gentium Book Plus', 'Charis SIL', 'Doulos SIL', 'Lucida Grande', 'Noto Serif', serif;

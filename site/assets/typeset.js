@@ -70,7 +70,7 @@ export function buildBlocks(dict) {
   return blocks;
 }
 
-const CIRCLED = '❶❷❸❹❺❻❼❽❾❿⓫⓬⓭⓮⓯⓰⓱⓲⓳⓴';
+const CIRCLED = '①②③④⑤⑥⑦⑧⑨⑩⑪⑫⑬⑭⑮⑯⑰⑱⑲⑳';
 function circled(n) { return n <= CIRCLED.length ? CIRCLED[n - 1] : n + '.'; }
 
 export function blockHtml(b) {

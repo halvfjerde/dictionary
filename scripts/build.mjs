@@ -32,7 +32,7 @@ function readTsv(file) {
     const cells = lines[i].split('\t');
     const row = {};
     head.forEach((h, j) => {
-      const v = (cells[j] ?? '').trim();
+      const v = (cells[j] ?? '').trim().replace(/\\"/g, '"');
       if (v) row[h] = v;
     });
     if (row.hw) rows.push(row);

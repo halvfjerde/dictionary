@@ -1,4 +1,4 @@
-hw	find	pos	ipa	gloss	lbl	ex	exg	etym	see	infl
+hw	find	pos		gloss	lbl	ex	exg	etym	see	infl
 áitriccuec		名	jaτiske	관리자, 경영자, 경영인				íaτis-ge(s)		f
 áitrici		動²	jaτis	관리하다, 경영하다				íaτis		f
 ánoici		冠	anjos	반대편의, 다른편의				ánios		b
@@ -7,7 +7,7 @@ býci		動²	bys	말하다, 주장하다, 진술하다				bús		f
 býctiti		名	bysτit	주장, 진술				bús-dit		f
 býctiti		名	bysτit	명제	수학					
 buctitfícuoncini		名	bustιtfιkonsιn	논쟁, 토론				bús-dit+víkons-ini		b
-cécai		動³	sesja	나누다, 가르다, 나뉘다				sébsia		f
+cécai		動³	sesja	나누다, 나뉘다, 가르다, 쪼개다				sébsia		f
 cécaiïce		冠	sesjaise	전기의				sébsia-ise		f
 céleip		動³	selje	맺다, 맺이다				sélie(p)		f
 céleipice		冠	seljepise	자기의				sélie(p)-ise		f
@@ -77,7 +77,7 @@ póciatini		名	posιatιn	검색				pósia(t)-ini		b
 pófoc		名	pofo	경험, 요령				pófe(s)		b
 pófoli		冠	pofol	전문적인				pófe(s)-li		b
 tácuediti		名	takeδit	에너지				ták-ge-dit		f
-tácueïni		名	takein	주고받음, 수수				ták-ge-ini		f
+tácueïni		名	takein	주고받음, 수수, 물물교환				ták-ge-ini		f
 tácueïni		名	takein	일	물리					
 tácuï		動³	tak	주다, 받다				ták		f
 taridíntic		名	tariδinti	왕국				tári(b)+dímti(s)		f
@@ -106,7 +106,7 @@ fálait		名	falja	장관, 대신
 retefálait		名	reτefalja	수상, 재상, 국무총리				réte+fáldrait		f
 tópocuie		名	topokι	떡볶이				(한) 떡볶이		b
 pínani		名	pιnan	군사, 군무				piónan		b
-pinancuácto		名	pιnankasto	군종				piónan+kálsto		b
+pinalicuácto		名	pιnalιkasto	군종				piónan-li+kálsto		b
 tíui		接	τiv	하지만				tivoli		f
 ýicuie		名	jyki	위키				(영) wiki		f
 fýnc		名	fyn	공				fúne(s)		f
@@ -115,7 +115,7 @@ paiïcetácuediti		名	pjaisetakeδit	전기에너지	전기전자			sébsia-ise
 tócuou		冠	toko	센				tórke(b)		b
 náueit		冠	navje	여린, 약한				návei(t)		f
 cécaiγuec		名	sesjage	전기				sébsia-ge(s)		f
-céleiγuec		名	seljege	자기(磁氣)				sélie(p)-ge(s)		f
+céleiγuec		名	seljege	자기				sélie(p)-ge(s)		f
 tecuecécaiγuec		名	τekesesjage	강전				tórke(b)+sébsia-ge(s)		f
 naueicécaiγuec		名	navjesesjage	약전				návei(t)+sébsia-ge(s)		f
 tecuecécaiïce		冠	τekesesjaise	강전의				tórke(b)+sébsia-ise		f
@@ -123,4 +123,9 @@ naueicécaiïce		冠	navjesesjaise	약전의				návei(t)+sébsia-ise		f
 cuócp		名	kos	만들다, (건물 등을) 짓다				kóso(p)		b
 ételnaue		名	eτelnave	학문, 분야				ételi-nave		f
 cuócoteli		名	kosoτel	공학				kóso(p)-tel		f
-										
+uótabini		名	votabιn	모임, 결사				vóta(b)-ini		b
+uótabini		名	votabιn	집합	수학					
+uótabini		名	votabιn	소대	군사					
+cécaiïni		名	sesjain	나눗셈, 나눔				sébsia-ini		f
+cécailati		名	sesjalat	조각, 입자				sébsia-lati		f
+cécailati		名	sesjalat	사단	군사					

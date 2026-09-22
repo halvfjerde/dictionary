@@ -172,8 +172,8 @@ b, strong { font-weight: var(--weight-bold); }
   border: 1px solid transparent;
   border-radius: var(--pill);
   height: 2.2rem;
-  padding: 0 1em;
   text-align: center;
+  padding: .2em .8em 0;
   transition: border-color .15s ease, box-shadow .15s ease, background-color .15s ease;
 }
 .find input::-webkit-search-cancel-button,

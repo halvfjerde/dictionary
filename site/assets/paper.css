@@ -206,7 +206,7 @@ b, strong { font-weight: var(--weight-bold); }
 .results__hit:hover, .results__hit[aria-selected='true'] { background: var(--color-bg-alt); }
 .results__hw {
   font-family: var(--font-latin), serif;
-  font-size: 1.12rem; font-weight: var(--weight-bold);
+  font-size: 1rem; font-weight: var(--weight-bold);
   letter-spacing: -.01em;
 }
 .results__hw sup { font-size: .6em; vertical-align: super; line-height: 0; }
@@ -265,7 +265,7 @@ b, strong { font-weight: var(--weight-bold); }
 .blk { overflow: hidden; }
 .blk__in {
   font-size: 14.2px;
-  line-height: 1.5;
+  line-height: 1.4;
   color: var(--ink);
   text-align: left;
   hyphens: none;
@@ -312,9 +312,9 @@ b, strong { font-weight: var(--weight-bold); }
 }
 
 .num {
-  font-weight: var(--weight-bold); color: var(--color-muted-5);
+  font-weight: var(--weight-bold); color: var(--color-muted-3);
   font-size: 12px;
-  margin-right: .32em;
+  margin-right: .48em;
 }
 .lbl {
   font-family: var(--font-hanja);
@@ -322,8 +322,8 @@ b, strong { font-weight: var(--weight-bold); }
   color: var(--color-accent);
   border: 1px solid color-mix(in srgb, var(--color-accent) 42%, transparent);
   border-radius: var(--radius-sm);
-  padding: .05em .28em; margin-right: .34em;
-  vertical-align: .1em;
+  padding: .15em .28em .05em; margin-left: .20em; margin-right: .48em;
+  vertical-align: .05em;
 }
 .gloss { font-size: 13.4px; }
 

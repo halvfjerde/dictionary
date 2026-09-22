@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>사전</title>
+<meta name="description" content="인공어 사전. 라틴·키릴·그리스 어느 문자로 쳐도 찾힙니다.">
+<meta name="color-scheme" content="light dark">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="assets/paper.css">
+</head>
+<body>
+
+<div class="top">
+  <div class="top__in">
+    <select id="dictSel" aria-label="사전 고르기"></select>
+    <div class="find">
+      <input id="q" type="search" autocomplete="off" autocapitalize="off" spellcheck="false"
+             placeholder="찾기" aria-label="표제어 찾기">
+    </div>
+  </div>
+</div>
+
+<main class="stage">
+  <div class="sheet">
+    <div class="page"></div>
+  </div>
+</main>
+
+<div class="results" hidden role="listbox" aria-label="찾은 표제어"></div>
+
+<footer class="statusbar">
+  <button class="pager pager--prev" type="button" aria-label="앞 쪽">‹</button>
+  <span class="statusbar__folio"><b id="statusPage">1</b><span class="statusbar__sep">/</span><span id="statusTotal">1</span></span>
+  <button class="pager pager--next" type="button" aria-label="뒤 쪽">›</button>
+  <input id="slider" class="slider" type="range" min="0" max="0" value="0" step="1" aria-label="쪽 옮기기">
+</footer>
+
+<div id="measure" aria-hidden="true"></div>
+
+<script type="module" src="assets/app.js"></script>
+</body>
+</html>

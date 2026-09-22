@@ -1,0 +1,59 @@
+id: tracaic
+name: 차샤
+nativeName: trácaïc
+subtitle:
+edition:
+compiler: 삼쩌모
+year: 2026
+order: 2
+
+primaryScript: latin
+scripts: [cyrillic, latin, greek]
+
+scriptLabels:
+  cyrillic: 키릴
+  latin: 라틴
+  greek: 그리스
+
+collation: a b c d e f g γ h i l m n o p r t u w
+
+graphemes:
+  # 모음
+  - {key: a,  cyrillic: а,  latin: a,  greek: α}
+  - {key: á,  cyrillic: а́, latin: á,  greek: ά}
+
+  - {key: e,  cyrillic: е,  latin: e,  greek: ε}
+  - {key: é,  cyrillic: е́, latin: é,  greek: έ}
+
+  - {key: i,  cyrillic: и,  latin: i,  greek: ι}
+  - {key: í,  cyrillic: и́, latin: í,  greek: ί}
+  - {key: ï,  cyrillic: ӥ,  latin: ï,  greek: ϊ}
+
+  - {key: o,  cyrillic: о,  latin: o,  greek: ο}
+  - {key: ó,  cyrillic: о́, latin: ó,  greek: ό}
+
+  - {key: u,  cyrillic: у,  latin: u,  greek: υ}
+  - {key: ú,  cyrillic: у́, latin: ú,  greek: ύ}
+  - {key: ü,  cyrillic: ӱ,  latin: ü,  greek: ϋ}
+
+  - {key: y,  cyrillic: ы,  latin: y,  greek: ͷ}
+  - {key: ý,  cyrillic: ы́, latin: ý,  greek: ͷ́}
+
+  - {key: b,  cyrillic: б,  latin: b,  greek: β}
+
+  - {key: c,  cyrillic: с,  latin: c,  greek: σ}
+
+  - {key: d,  cyrillic: д,  latin: d,  greek: δ}
+
+  - {key: f,  cyrillic: ф,  latin: f,  greek: φ}
+
+  - {key: γ,  cyrillic: х,  latin: γ,  greek: χ}
+
+  - {key: l,  cyrillic: л,  latin: l,  greek: λ}
+  - {key: m,  cyrillic: м,  latin: m,  greek: μ}
+  - {key: n,  cyrillic: н,  latin: n,  greek: ν}
+
+  - {key: p,  cyrillic: п,  latin: p,  greek: π}
+  - {key: r,  cyrillic: р,  latin: r,  greek: ρ}
+
+  - {key: t,  cyrillic: т,  latin: t,  greek: τ}

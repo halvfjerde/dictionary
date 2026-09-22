@@ -1,0 +1,16 @@
+{
+  "name": "halv-dict",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "인공어 사전",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node test/fold.test.mjs",
+    "serve": "node scripts/serve.mjs",
+    "dev": "node scripts/build.mjs && node scripts/serve.mjs"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  }
+}

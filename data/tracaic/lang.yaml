@@ -47,7 +47,7 @@ graphemes:
 
   - {key: f,  cyrillic: ф,  latin: f,  greek: φ}
 
-  - {key: γ,  cyrillic: х,  latin: γ,  greek: χ}
+  - {key: γ,  cyrillic: г,  latin: g,  greek: γ}
 
   - {key: l,  cyrillic: л,  latin: l,  greek: λ}
   - {key: m,  cyrillic: м,  latin: m,  greek: μ}

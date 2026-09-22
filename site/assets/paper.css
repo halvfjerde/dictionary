@@ -173,7 +173,7 @@ b, strong { font-weight: var(--weight-bold); }
   border-radius: var(--pill);
   height: 2.2rem;
   text-align: center;
-  padding: .2em .8em 0;
+  padding: .1em .8em 0;
   transition: border-color .15s ease, box-shadow .15s ease, background-color .15s ease;
 }
 .find input::-webkit-search-cancel-button,
@@ -446,7 +446,7 @@ b, strong { font-weight: var(--weight-bold); }
   max-width: none;
 }
 :root[data-cols='1'] .find { flex: 1 1 auto; width: auto; min-width: 0; }
-:root[data-cols='1'] .find input { height: 1.9rem; font-size: .8rem; padding: .2em .8em 0; }
+:root[data-cols='1'] .find input { height: 1.9rem; font-size: .8rem; padding: .1em .8em 0; }
 
 @media (max-width: 480px) {
   .top { padding: 11px 14px 8px; }

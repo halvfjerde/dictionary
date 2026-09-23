@@ -2,7 +2,7 @@
  *
  *  ① 모든 덩이(blk)를 단 너비 그대로인 보이지 않는 자리에 한 번 앉힌다.
  *  ② 각 덩이의 행 상자를 실측한다. (Range.getClientRects)
- *  ③ 단 높이에 맞추어 행 단위로 끊어 담는다. 끊긴 덩이는 같은 너비에서
+ *  ③ 들어가는 항목은 함께 담고, 긴 항목만 단 높이에 맞추어 행 단위로 끊는다. 끊긴 덩이는 같은 너비에서
  *     그대로 다시 앉힌 뒤 위로 밀어 올려 잘라 보이므로 줄바꿈이 어긋나지 않는다.
  *
  *  표제어가 단 맨 아래에 홀로 남거나, 한 줄만 다음 단으로 넘어가는 일은 막는다.
@@ -136,11 +136,12 @@ function lineBoxes(range, inner, blockTop, pad) {
  * @param {Array} sizes    measureBlocks 결과
  * @param {number} colH    한 단의 높이 (px)
  * @param {number} perPage 한 면의 단 수
+ * @param {boolean} keepEntries 내부 시험 조판에서는 false로 재진입을 막는다
  * @returns {{pages:Array, ofEntry:Int32Array}}
  *   pages[i] = {cols:[[{b, clipTop, clipH}]], first, last}
  *   ofEntry[entryIndex] = 그 표제어가 시작하는 면의 번호(본문 기준 0부터)
  */
-export function packPages(blocks, sizes, colH, perPage) {
+export function packPages(blocks, sizes, colH, perPage, keepEntries = true) {
   const pages = [];
   let cols = [];
   let col = [];
@@ -153,6 +154,32 @@ export function packPages(blocks, sizes, colH, perPage) {
 
   for (let i = 0; i < blocks.length; i++) {
     const b = blocks[i], s = sizes[i];
+    // 항목 전체를 먼저 확인한다. 머리글자가 있으면 함께 옮긴다.
+    const entryStart = b.kind === 'letter' ||
+      (b.kind === 'hw' && blocks[i - 1]?.kind !== 'letter');
+    if (keepEntries && entryStart) {
+      let end = i;
+      while (end < blocks.length && blocks[end].e === b.e && blocks[end].kind !== 'gap') end++;
+      const entrySizes = sizes.slice(i, end);
+      const height = entrySizes.reduce((sum, size) => sum + size.h, 0);
+      if (height <= colH) {
+        // 한 단에 들어가는 항목은 어느 덩이도 다음 단으로 넘기지 않는다.
+        if (y > 0 && y + height > colH) flushCol();
+      } else if (perPage > 1 && (cols.length || col.length)) {
+        // 긴 항목은 기존 행 분할 규칙으로 시험 조판한다.
+        // 현재 쪽에는 안 들어가지만 빈 쪽에는 들어가면 쪽째 넘긴다.
+        const entryBlocks = blocks.slice(i, end).map((block) => ({ ...block, e: 0 }));
+        const fits = (used, columns) => {
+          const prefix = used > 0 ? [{ e: 0, kind: 'reserve' }] : [];
+          const prefixSizes = used > 0 ? [{ h: used, lines: [] }] : [];
+          return packPages([...prefix, ...entryBlocks], [...prefixSizes, ...entrySizes],
+            colH, columns, false).pages.length === 1;
+        };
+        if (!fits(y, perPage - cols.length) && fits(0, perPage)) {
+          do { flushCol(); } while (cols.length);
+        }
+      }
+    }
     if (b.kind === 'gap') {
       // 단 끝의 여백은 흘려 버린다
       if (y > 0) y = Math.min(colH, y + s.h);

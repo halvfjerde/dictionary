@@ -456,11 +456,11 @@ b, strong { font-weight: var(--weight-bold); }
 }
 
 @media print {
-  .top, .statusbar, .results { display: none !important; }
+  .top, .statusbar, .results, #measure { display: none !important; }
   body { overflow: visible; background: #fff; }
   .stage { position: static; display: block; padding: 0; overflow: visible; }
-  .sheet { width: auto; }
-  .page { height: auto; break-after: page; }
+  .sheet { width: var(--pw); }
+  .page { height: auto; break-inside: avoid; page-break-inside: avoid; break-after: page; }
 }
 .hj {
     position: relative;

@@ -2,12 +2,13 @@ hw	find	pos	ipa	gloss	lbl	ex	exg	etym	see	infl
 áitriccuec		名	jaτiske	관리자, 경영자, 경영인				íaτis-ge(s)		f
 áitrici		動²	jaτis	관리하다, 경영하다				íaτis		f
 ánoici		冠	anjos	반대편의, 다른편의				ánios		b
-blóγue		名	blogu	블로그				(영) blog		b
+blóγue		名	blogu	블로그				(英) blog		b
 býci		動²	bys	말하다, 주장하다, 진술하다				bús		f
 býctiti		名	bysτit	주장, 진술				bús-dit		f
 býctiti		名	bysτit	명제	수학					
 buctitfícuoncini		名	bustιtfιkonsιn	논쟁, 토론				bús-dit+víkons-ini		b
-cécai		動³	sesja	나누다[割], 나뉘다, 가르다, 쪼개다				sébsia		f
+cécai		動³	sesja	나누다[分], 나뉘다				sébsia		f
+cécai		動³	sesja	가르다[割], 갈리다, 쪼개다						
 cécai		動³	sesja	나누다[除], 나뉘다	수학					
 cécaiïce		冠	sesjaise	전기의				sébsia-ise		f
 céleip		動³	selje	맺다, 맺이다				sélie(p)		f
@@ -23,7 +24,7 @@ cuádilici		名	kadιlιs	짜임, 조직, 구조				kádim-lis		b
 cuádimi		動²	kadιm	짜다[織]				kádim		b
 cuádimi		動²	kadιm	뜨개질하다						
 cuílci		動³	kils	묶다, 묶이다				kílesn		f
-cuórit		名	korι	한국	고유			(한) 고려		b
+cuórit		名	korι	한국	고유			(韓) 고려		b
 cuúdia		動³	kudιa	더하다[加], 더해지다				kútia		b
 cuúdianauo		名	kudιanavo	벡터	수학			kútia-nave		b
 délti		名	δelt	힘				démlet		f
@@ -65,7 +66,7 @@ léncualci		名	lenkals	완벽, 완전성				lénika-lis		f
 mádi		冠	mad	어두운				mád		b
 matfítaui		名	matfitav	암월	고유			mád+fítab		f
 méui		名	mev	2, 둘, 이				móbil		f
-ná		動¹	na	(유정물이) 있다				ná		f
+ná		動¹	na	(유정물이) 있다[在]				ná		f
 náiu		名	nja	고양이				nía(b)		f
 ócnici		名	osnιs	몫				ósmos		b
 oculocuácto		名	oklokasto	단과대학				ékole-li+kálsto		b
@@ -86,13 +87,13 @@ táriu		名	tari	왕				tári(b)		f
 tomócili		名	tomosιl	닫힌				tomósil		b
 trácaic		名	τasja	차샤, 자사	고유			τásai(s)		f
 uá		動²	va	하다				vá		f
-uáultif		名	vaultι	금고(金庫)				(영) vault		b
+uáultif		名	vaultι	금고(金庫)				(英) vault		b
 uícuoncini		名	vιkonsιn	싸움				víkons-ini		b
 uícuonici		動¹	vιkonιs	싸우다				víkons		b
 uótau		動³	vota	모으다[集], 모이다				vóta(b)		b
 ýicei		冠	jysje	위의				íusie		f
 γádecuï		名	haδek	하제크, 하적	고유			hádiek		f
-γuá		動¹	ga	(무정물이) 있다				gá		f
+γuá		動¹	ga	(무정물이) 있다[在]				gá		f
 γuélγafti		名	gelhaft	사회				gélhaft		f
 γuílcec		名	gilse	저장소, 창고, 곳집				gílits-te(s)		f
 γuílci		動³	gils	쌓다, 쌓이다				gílits		f
@@ -101,15 +102,15 @@ uótau		動³	vota	모으다[集], 모이다				vóta(b)		b
 γénemi		名	henem	사람, 인간				hénom		f
 réte		冠	reτe	큰				réte		f
 eprelidíntic		名	epreliδinτi	제국, 황국				émpere-li+dímti(s)		f
-γácua		名	haka	해커				(일) ハッカー		f
+γácua		名	haka	해커				(日) ハッカー		f
 fálait		名	falja	신하				fáldrai(t)		f
 fálait		名	falja	장관, 대신(大臣)						
 retefálait		名	reτefalja	수상(首相), 재상, 국무총리				réte+fáldrait		f
-tópocuie		名	topokι	떡볶이				(한) 떡볶이		b
+tópocuie		名	topokι	떡볶이				(韓) 떡볶이		b
 pínani		名	pιnan	군사, 군무				piónan		b
 pinalicuácto		名	pιnalιkasto	군종(軍種)				piónan-li+kálsto		b
 tíui		接	τiv	하지만				tívoli		f
-ýicuie		名	jyki	위키				(영) wiki		f
+ýicuie		名	jyki	위키				(英) wiki		f
 fýnc		名	fyn	공[球]				fúne(s)		f
 fýnc		名	fyn	구체, 구						
 paiïcetácuediti		名	pjaisetakeδit	전기에너지	전기전자			sébsia-ise+ták-ge-dit		f
@@ -130,6 +131,6 @@ uótabini		名	votabιn	소대(小隊)	군사
 cécaiïni		名	sesjain	나눗셈, 나눔				sébsia-ini		f
 cécailati		名	sesjalat	(큰) 조각				sébsia-lati		f
 cécailati		名	sesjalat	사단(師團)	군사					
-ciota		名	sιota	쇼타				(일) ショタ		b
+ciota		名	sιota	쇼타				(日) ショタ		b
 éyci		名	eys	원, 동그라미				éues		f
 ýatat		冠	yata	빠른				úatia(t)		f

@@ -412,9 +412,12 @@ export const _internal = { UNIVERSAL, LOOSE_MAP, DEFAULT_IGNORE, stripMarks };
         }).observe(document.body, { childList: true, characterData: true, subtree: true });
     }
 
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', start);
-    } else {
-        start();
+    if (typeof document !== 'undefined') {
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', init);
+        } else {
+            init();
+        }
     }
 })();
+

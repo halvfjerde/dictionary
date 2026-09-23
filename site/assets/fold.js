@@ -348,3 +348,73 @@ export function search(entries, query, folder, opt = {}) {
 }
 
 export const _internal = { UNIVERSAL, LOOSE_MAP, DEFAULT_IGNORE, stripMarks };
+
+(function () {
+    'use strict';
+
+    var HAN = '々-〇〻'
+            + '぀-ゟ'
+            + '゠-ヿ'
+            + '㆐-㆟'
+            + 'ㇰ-ㇿ'
+            + '㐀-䶿'
+            + '一-鿿'
+            + '豈-﫿'
+            + 'ｦ-ﾟ'
+            + '\u{20000}-\u{2FA1F}'
+            + '\u{30000}-\u{323AF}';
+    var RUN = new RegExp('[' + HAN + ']+', 'gu');
+    var HAS = new RegExp('[' + HAN + ']', 'u');
+
+    var SKIP = 'ruby, rt, rp, script, style, noscript, textarea, input, select, option,'
+             + ' code, pre, kbd, samp, svg, math, .katex, .hj, .no-hj, [contenteditable]';
+
+    function wrapText(node) {
+        var text = node.nodeValue;
+        if (!text || !HAS.test(text)) return;
+        var parent = node.parentElement;
+        if (!parent || parent.closest(SKIP)) return;
+
+        var frag = document.createDocumentFragment();
+        var last = 0;
+        RUN.lastIndex = 0;
+        var m;
+        while ((m = RUN.exec(text))) {
+            if (m.index > last) frag.appendChild(document.createTextNode(text.slice(last, m.index)));
+            var span = document.createElement('span');
+            span.className = 'hj';
+            span.textContent = m[0];
+            frag.appendChild(span);
+            last = m.index + m[0].length;
+        }
+        if (last < text.length) frag.appendChild(document.createTextNode(text.slice(last)));
+        node.parentNode.replaceChild(frag, node);
+    }
+
+    function walk(root) {
+        if (!root) return;
+        if (root.nodeType === Node.TEXT_NODE) { wrapText(root); return; }
+        if (root.nodeType !== Node.ELEMENT_NODE || root.closest(SKIP)) return;
+        var tw = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+        var nodes = [];
+        while (tw.nextNode()) nodes.push(tw.currentNode);
+        nodes.forEach(wrapText);
+    }
+
+    function start() {
+        walk(document.body);
+
+        new MutationObserver(function (list) {
+            list.forEach(function (mut) {
+                if (mut.type === 'characterData') wrapText(mut.target);
+                else mut.addedNodes.forEach(walk);
+            });
+        }).observe(document.body, { childList: true, characterData: true, subtree: true });
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', start);
+    } else {
+        start();
+    }
+})();

@@ -462,3 +462,7 @@ b, strong { font-weight: var(--weight-bold); }
   .sheet { width: auto; }
   .page { height: auto; break-after: page; }
 }
+.hj {
+    position: relative;
+    top: 0.07em;
+}

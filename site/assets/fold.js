@@ -414,9 +414,9 @@ export const _internal = { UNIVERSAL, LOOSE_MAP, DEFAULT_IGNORE, stripMarks };
 
     if (typeof document !== 'undefined') {
         if (document.readyState === 'loading') {
-            document.addEventListener('DOMContentLoaded', init);
+            document.addEventListener('DOMContentLoaded', start);
         } else {
-            init();
+            start();
         }
     }
 })();

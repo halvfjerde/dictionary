@@ -36,7 +36,7 @@ dóti		動³	dot	짓다, 지어지다				dót		b
 dótini		名	dotιn	구조, 형성, 형태, 조성				dót-ini		b
 écule		名	ekle	대학, 종합대학				ékole		f
 encíccuï		動²	ensisk	나누다[配], 분배하다, 배분하다				ósmos+íris		f
-encícti		名	ensist	배분주의				ósmos+íris-vit		f
+encícti		名	ensist	분배주의, 배분주의	경제			ósmos+íris-vit		f
 éntati		動³	entat	곱하다, 곱해지다				éntat		f
 épret		名	epre	황제				émpere		f
 ételi		動²	eτel	배우다, 공부하다				étiel		f
@@ -59,7 +59,7 @@ iücicuádilici		名	ιusιkadιlιs	상부구조	사회
 lacuádilici		名	lakadιlιs	기반, 토대				ládor+kádim-lis		b
 lacuádilici		名	lakadιlιs	하부구조	사회					
 ládi		冠	lad	아래의				ládor		f
-leipicedélti		名	ljepiseδelt	자기력(磁氣力)				sélie(p)-ise+démlet		f
+leipicedélti		名	ljepiseδelt	자기력(磁氣力)	물리			sélie(p)-ise+démlet		f
 léncua		動¹	lenka	완벽하다				lénika		f
 léncuafti		名	lenkaft	완벽주의				lénika-vit		f
 léncualci		名	lenkals	완벽, 완전성				lénika-lis		f
@@ -71,7 +71,7 @@ náiu		名	nja	고양이				nía(b)		f
 ócnici		名	osnιs	몫				ósmos		b
 oculocuácto		名	oklokasto	단과대학				ékole-li+kálsto		b
 páci		動³	pas	보다, 보이다				pásio		b
-paiïcedélti		名	pjaiseδelt	전기력(電氣力)				sébsia-ise+démlet		f
+paiïcedélti		名	pjaiseδelt	전기력(電氣力)	물리			sébsia-ise+démlet		f
 páldi		名	pald	양(量)				pálid		f
 pefeliáitriccuec		名	pefeiljaτiske	전문경영인				pófe(s)-li+íaτis-ge(s)		f
 póciat		動²	posιa	(지식을) 찾다, 검색하다				pósia(t)		b
@@ -97,7 +97,7 @@ uótau		動³	vota	모으다[集], 모이다				vóta(b)		b
 γuélγafti		名	gelhaft	사회				gélhaft		f
 γuílcec		名	gilse	저장소, 창고, 곳집				gílits-te(s)		f
 γuílci		動³	gils	쌓다, 쌓이다				gílits		f
-γulatlicuádilici		名	glatlιkadιlιs	사회구조				gélhaft-li+kádim-lis		b
+γulatlicuádilici		名	glatlιkadιlιs	사회구조	사회			gélhaft-li+kádim-lis		b
 γulatidótini		名	glatlιdotιn	사회구성체	사회			gélhaft-li+dót-ini		b
 γénemi		名	henem	사람, 인간				hénom		f
 réte		冠	reτe	큰				réte		f
@@ -108,21 +108,21 @@ fálait		名	falja	장관, 대신(大臣)
 retefálait		名	reτefalja	수상(首相), 재상, 국무총리				réte+fáldrait		f
 tópocuie		名	topokι	떡볶이				(韓) 떡볶이		b
 pínani		名	pιnan	군사, 군무				piónan		b
-pinalicuácto		名	pιnalιkasto	군종(軍種)				piónan-li+kálsto		b
+pinalicuácto		名	pιnalιkasto	군종(軍種)	군사			piónan-li+kálsto		b
 tíui		接	τiv	하지만				tívoli		f
 ýicuie		名	jyki	위키				(英) wiki		f
 fýnc		名	fyn	공[球]				fúne(s)		f
 fýnc		名	fyn	구체, 구						
-paiïcetácuediti		名	pjaisetakeδit	전기에너지	전기전자			sébsia-ise+ták-ge-dit		f
+paiïcetácuediti		名	pjaisetakeδit	전기에너지	물리			sébsia-ise+ták-ge-dit		f
 tócuou		冠	toko	센				tórke(b)		b
 náueit		冠	navje	여린, 약한				návei(t)		f
 cécaiγuec		名	sesjage	전기(電氣)				sébsia-ge(s)		f
 céleiγuec		名	seljege	자기(磁氣)				sélie(p)-ge(s)		f
-tecuecécaiγuec		名	τekesesjage	강전(强電)				tórke(b)+sébsia-ge(s)		f
-naueicécaiγuec		名	navjesesjage	약전(弱電)				návei(t)+sébsia-ge(s)		f
-tecuecécaiïce		冠	τekesesjaise	강전(强電)의				tórke(b)+sébsia-ise		f
-naueicécaiïce		冠	navjesesjaise	약전(弱電)의				návei(t)+sébsia-ise		f
-cuócp		名	kos	만들다[工], 짓다				kóso(p)		b
+tecuecécaiγuec		名	τekesesjage	강전(强電)	공학			tórke(b)+sébsia-ge(s)		f
+naueicécaiγuec		名	navjesesjage	약전(弱電)	공학			návei(t)+sébsia-ge(s)		f
+tecuecécaiïce		冠	τekesesjaise	강전(强電)의	공학			tórke(b)+sébsia-ise		f
+naueicécaiïce		冠	navjesesjaise	약전(弱電)의	공학			návei(t)+sébsia-ise		f
+cuócp		動²	kos	만들다[工], 짓다				kóso(p)		b
 ételnaue		名	eτelnave	학문, 분야				ételi-nave		f
 cuócoteli		名	kosoτel	공학				kóso(p)-tel		f
 uótabini		名	votabιn	모임, 결사				vóta(b)-ini		b

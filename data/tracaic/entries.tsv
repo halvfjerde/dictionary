@@ -1,4 +1,5 @@
 hw	find	pos	ipa	gloss	lbl	ex	exg	etym	see	infl
+suer										
 áitriccuec		名	jaτiske	관리자, 경영자, 경영인				íaτis-ge(s)		f
 áitrici		動²	jaτis	관리하다, 경영하다				íaτis		f
 ánoici		冠	anjos	반대편의, 다른편의				ánios		b
@@ -89,8 +90,8 @@ tomócili		名	tomosιl	닫힌				tomósil		b
 trácaic		名	τasja	차샤, 자사	자하·언어			τásai(s)		f
 uá		動²	va	하다				vá		f
 uáultif		名	vaultι	금고(金庫)				(英) vault		b
-uícuoncini		名	vιkonsιn	싸움				víkons-ini		b
-uícuonici		動¹	vιkonιs	싸우다				víkons		b
+uícuoncini		名	vιkonsιn	싸움, 다툼, 전쟁				víkons-ini		b
+uícuonici		動²	vιkonιs	싸우다, 다투다				víkons		b
 uótau		動³	vota	모으다[集], 모이다				vóta(b)		b
 ýicei		冠	jysje	위의				íusie		f
 γádecuï		名	haδek	하제크, 하적	자하·종교			hádiek		f
@@ -110,7 +111,7 @@ retefálait		名	reτefalja	수상(首相), 재상, 국무총리				réte+fáldr
 tópocuie		名	topokι	떡볶이				(韓) 떡볶이		b
 pínani		名	pιnan	군사, 군무				piónan		b
 pinalicuácto		名	pιnalιkasto	군종(軍種)	군사			piónan-li+kálsto		b
-tíui		接	τiv	하지만				tívoli		f
+tiui		接	τiv	하지만				tivoli		f
 ýicuie		名	jyki	위키				(英) wiki		f
 fýnc		名	fyn	공[球]				fúne(s)		f
 fýnc		名	fyn	구체, 구						
@@ -134,7 +135,7 @@ cécailati		名	sesjalat	사단(師團)	군사
 ciota		名	sιota	쇼타				(日) ショタ		b
 éyci		名	eys	원, 동그라미				éues		f
 ýatat		冠	yata	빠른				úatia(t)		f
-fáncili		名	fansιl	만들다[作], 짓다, 창작하다				fánsol		b
+fáncili		名	fansιl	만들다[作], 창작하다				fánsol		b
 áiup		名	jav	시간				íabi(p)		f
 d’éti’ri		副	δeτir	왜, 어째서, 무엇을 위해						f
 d’éti		名	δet	무엇						f
@@ -155,7 +156,7 @@ tólari		冠	tolar	정당한, 알맞은				tólar		b
 tólari		冠	tolaro	당당한, 떳떳한						
 falγueliteladélti		名	falgeliτelaδelt	저작권				fánsol-ge(s)-li+tólar+démlet		f
 péli		名	pel	태양, 모항성				pérli		f
-oiüilóic		名	oιvιloι	초하루				óiui(s)+lói(s)		b
+oiuilóic		名	oιvιloι	초하루				óiui(s)+lói(s)		b
 ételcuec		名	eτelke	학교				étiel-k-te(s)		f
 eyicételcuec		名	ejyseτelke	초등학교				óiui(s)+étiel-k-te(s)		f
 eyicételcuec		名	ejyseτelke	초등교육기관						f
@@ -169,6 +170,19 @@ fálγuoc		名	falgo	창작가, 작가, 저자				fánsol-ge(s)		b
 tlapéli		名	tlapel	정일	자하·천문			tólar+pérli		f
 loíc		名	loι	하루, 날				lói(s)		b
 eýiïc		冠	ejyi	첫째의, 처음의				óiu-iro(s)		f
+cáuonit		名	savonι	사보니, 사원	자하·지리			sávoni(t)		b
 méulici		冠	mevlis	둘째의				móbil-iro(s)		f
 ífic		冠	ιfι	셋째의				ífrov-iro(s)		b
-cáuonit		名	savonι	사보니, 사원	자하·지리			savoni(t)		b
+einat		接	jena	그리고				eina(t)		f
+táncif		名	tansi	전통				tánsi(f)		f
+céndymi		動³	senδym	돌아가다, 돌아가게 하다				séndum		
+céndymi		動³	senδym	되돌다, 되돌리다, 복구하다						
+céndymini		名	senδymin	복원, 복구, 회복				séndum-ini		f
+céndymini		名	senδymin	복고						
+céndymini		名	senδymin	복벽, 왕정복고	사회					
+céndymuati		名	senδymvat	반동(反動), 반동주의	사회			séndum-vat		f
+céndyminiuati		名	senδyminivat	복벽주의	사회			séndum-ini-vat		f
+cifóri		副	sιfor	다시				svér		b
+dénty		動²	δenτy	짓다, 세우다[建]				déntu		f
+déntycfiri		動²	δenτysfir	재건하다, 중흥시키다				déntu+svér		f
+déntylci		名	δenτyls	재건, 중흥, 부흥				déntu+svér-lis		f
